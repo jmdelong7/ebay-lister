@@ -2,7 +2,7 @@
 
 This is all personalized for my system, you can modify it and feel free to use whatever is in this project however you want. As of right now I do not plan on updating or maintaining this project.
 
-The list.py script will look for exact name matches for templates on ebay using the excel column named  “category”. I do this for 2 reasons:
+The list.py script will look for exact name matches for templates on eBay using the Excel column named  “category”. I do this for 2 reasons:
 
 Firstly, it eliminates having to search for categories and have varying item specifics filled out. It is the quickest way to go to the listing page without having to look anything up. Overall, it improves reliability and repeatability. 
 
@@ -14,7 +14,7 @@ The shipping policy names I have set up are ground, padded, envelope, and priori
 
 The possible conditions are pre-owned, new with defects, new without tags, and new with tags. If an item is in the sports category, I have defaults in templates set to used and it will only change it if an item is new with tags.
 
-The size, color, and materials will not be selected if they are not in the dropdown when they are searched for in the ebay listing. They must be separated by commas in each of their excel columns and for size and color it will always take the first value. All values are put in the main description. The ChatGPT tool takes care of separating them out by commas.
+The size, color, and materials will not be selected if they are not in the dropdown when they are searched for in the eBay listing. They must be separated by commas in each of their Excel columns and for size and color it will always take the first value. All values are put in the main description. The ChatGPT tool takes care of separating them out by commas.
 
 ## How I use these files
 
@@ -30,6 +30,6 @@ Upon running it, I sign in manually and then press enter on the terminal next to
 
 ## available_skus.py
 
-This file is used in conjunction with the ebay “Active Listings Report” which is downloaded via .csv file on ebay. This file has all active listings and their skus. Using this file I can find which skus aren’t active and get a list of skus so I don’t have to move my inventory around. I am able to put items in spots that are open.
+This file is used in conjunction with the eBay “Active Listings Report” which is downloaded via .csv file on eBay. This file has all active listings and their skus. Using this file I can find which skus aren’t active and get a list of skus so I don’t have to move my inventory around. I am able to put items in spots that are open.
 
 My skus start at 10001-01 and go up to 10001-18 then 10002-01 and so on. This script gets all the skus which are not present in the “Active Listings Report” file (i.e. all skus that do not have 1+ quantity). 
