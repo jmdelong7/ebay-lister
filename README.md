@@ -1,6 +1,6 @@
 # ebay_lister
 
-Some important notes:
+## Some important notes:
 
 This is all personalized for my system, you can modify it and feel free to use whatever is in this project however you want. As of right now I do not plan on updating or maintaining this project.
 
@@ -18,7 +18,7 @@ The possible conditions are pre-owned, new with defects, new without tags, and n
 
 The size, color, and materials will not be selected if they are not in the dropdown when they are searched for in the ebay listing. They must be separated by commas in each of their excel columns and for size and color it will always take the first value. All values are put in the main description. The ChatGPT tool takes care of separating them out by commas.
 
-Here is how I use these files:
+## Here is how I use these files:
 
 Once all data is filled out in the Excel spreadsheet I open the change_me file and change the file paths so they match where the spreadsheet I just filled out is and where I want the new Excel spreadsheet with changes to be. 
 
